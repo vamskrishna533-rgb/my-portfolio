@@ -1,7 +1,16 @@
 const form = document.querySelector('form');
 
 if (form) {
-    form.addEventListener('submit', function () {
+    let submitted = false;
+
+    form.addEventListener('submit', function (event) {
+        if (submitted) {
+            event.preventDefault();
+            return;
+        }
+
+        submitted = true;
+
         const button = form.querySelector('button[type="submit"]');
 
         if (button) {
