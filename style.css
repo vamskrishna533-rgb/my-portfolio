@@ -189,3 +189,48 @@ footer {
         align-items: flex-start;
     }
 }
+
+
+
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    padding: 12px 24px;
+    background: #163A5F;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 0.9;
+}
