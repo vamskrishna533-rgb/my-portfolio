@@ -234,3 +234,52 @@ form button {
 form button:hover {
     opacity: 0.9;
 }
+/* FlyRank Graduate Credential */
+.credential-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.credential-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    border: 1px solid #d9dee7;
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+.credential-label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    color: #52657a;
+}
+
+.credential-card h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.credential-card p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #526070;
+}
+
+.credential-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 13px 24px;
+    border-radius: 8px;
+    background: #172033;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.credential-button:hover {
+    opacity: 0.85;
+}
